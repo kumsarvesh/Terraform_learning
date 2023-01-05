@@ -2,7 +2,7 @@
 
 
 provider "google" {
-  version     = "~> 4.0.0"
+  version     = "3.0.0"
   project     = "terraform-basics-365011"
   credentials = file("terraform-basics-Vm_1.json")
   region      = var.gcp_region
